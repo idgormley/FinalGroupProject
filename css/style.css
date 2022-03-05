@@ -2,8 +2,15 @@
 #desk_logo{
     display:none;
 }
+#moblie_logo{
+    display:none;
+}
+}
 
 .carousel {
     height: 50%;
     width: 50%;
 }
+
+
+   
