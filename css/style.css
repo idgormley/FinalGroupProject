@@ -1,16 +1,21 @@
 @media only screen and (max-width: 575.98px) {
-#desk_logo{
-    display:none;
-}
-#moblie_logo{
-    display:none;
-}
+    #desk_logo {
+        display: none;
+    }
+
+    #moblie_logo {
+        display: none;
+    }
 }
 
-.carousel {
-    height: 50%;
-    width: 50%;
+a {
+    text-decoration: none !important;
+    color: inherit !important;
 }
 
-
-   
+/* img {
+    object-fit: fill;
+} */
+.carousel-inner, .carousel-item {
+    max-height: 650px;
+}
