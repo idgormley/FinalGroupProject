@@ -104,8 +104,9 @@
         </div>
       </div>
     </div>
+
     <!-- Welcome -->
-    <div class="row my-4 mx-0 align-items-center">
+    <div class="row my-4 mx-0 align-items-center d-none d-sm-flex">
       <div class="col mr-n4" style="background-color:#CC9B61; border-radius: 25px; height: 16px;"></div>
       <div class="col-5">
         <p class="h1 text-center">Welcome to Bootstrap
@@ -113,6 +114,13 @@
       </div>
       <div class="col ml-n4" style="background-color:#CC9B61; border-radius: 25px; height: 16px"></div>
     </div>
+    <div class="row  text-center d-block d-sm-none">
+      <div class="col-sm">
+        <p class="my-3 py-2 text-center h4" style="background-color:#CC9B61; border-radius: 10px;">Welcome to Bootstrap
+        </p>
+      </div>
+    </div>
+
 
     <div class="row align-items-center">
       <div class="col-sm-8">
@@ -141,15 +149,22 @@
         </p>
       </div>
     </div>
-
+<hr>
     <!-- Seasonal Beverages -->
-    <div class="row my-4 mx-0 align-items-center">
+    <div class="row my-4 mx-0 align-items-center 	d-none d-sm-flex">
       <div class="col mr-n4" style="background-color:#CC9B61; border-radius: 25px; height: 16px;"></div>
       <div class="col-4">
         <p class="h2 text-center">Seasonal Beverages
         </p>
       </div>
       <div class="col ml-n4" style="background-color:#CC9B61; border-radius: 25px; height: 16px"></div>
+    </div>
+
+    <div class="row  text-center d-block d-sm-none">
+      <div class="col-sm">
+        <p class=" py-2 mb-3 text-center h4" style="background-color:#CC9B61; border-radius: 10px;">Seasonal Beverages
+        </p>
+      </div>
     </div>
 
     <div class="card-deck">
@@ -180,12 +195,19 @@
 
 
     <!-- Current offerings -->
-    <div class="row my-4 mx-0 align-items-center">
+    <div class="row my-4 mx-0 d-none d-sm-flex align-items-center">
       <div class="col mr-n4" style="background-color:#CC9B61; border-radius: 25px; height: 16px;"></div>
       <div class="col-4">
         <p class="h2 text-center">Current Offerings
       </div>
       <div class="col ml-n4" style="background-color:#CC9B61; border-radius: 25px; height: 16px"></div>
+    </div>
+
+    <div class="row  text-center d-block d-sm-none">
+      <div class="col-sm">
+        <p class=" py-2 mb-3 text-center h4" style="background-color:#CC9B61; border-radius: 10px;">Current Offerings
+        </p>
+      </div>
     </div>
 
     <div class="row mb-4">
@@ -227,14 +249,15 @@
     </div>
   </div> -->
     <!-- footer -->
-    <div class="footer mt-5">
+    <div class="footer mt-4">
       <hr>
       <div class="container">
         <div class="row">
-          <div class="col-sm-6" id="footlead">
+          <a class="text-info" href="index.html"><img src="images/logonav.png"></a>
+        </div>
+        <div class="row">
+          <div class="col-6">
             <ul style="list-style-type:none;" class="m-0 p-0">
-              
-              <li> <a class="text-info" href="index.html"><img src="images/logonav.png" class="w-"></a> </li>
               <li> <a class="text-info" href="coffee.html">Shop</a> </li>
               <li> <a class="text-info" href="about.html">About Us</a></li>
               <li> <a class="text-info" href="#">Contact Us</a></li>
@@ -264,7 +287,7 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-6 ">
+          <div class="col-6 ">
             <div class="row mb-2">
               <div class="col">
                 <address class="my-0">
@@ -277,12 +300,13 @@
                 </address>
               </div>
             </div>
-            <div class="row">
+            <div class="d-none d-sm-block">
+            <div class="row ">
               <div class="col pb-2">
                 <strong>Join our mailing list</strong>
               </div>
             </div>
-            <div class="row">
+            <div class="row ">
               <div class="col">
                 <div class="input-group mb-3">
                   <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address"
@@ -292,12 +316,37 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div></div>
+     
+
           </div>
         </div>
-        <div class="row pb-2">
+        <div class="d-block d-sm-none">
+          <div class="row ">
+            <div class="col pb-2">
+              <strong>Join our mailing list</strong>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col">
+              <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address"
+                  aria-describedby="button-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-success" type="submit" id="button-addon2">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div></div>
+        <div class="row pb-2 d-none d-sm-block">
           <div class="col text-center">
             <small>© 2022, Bootstrap Coffee Roasters</small>
+            <small>All Rights Reserved</small>
+          </div>
+        </div>
+        <div class="row pb-2 d-block d-sm-none">
+          <div class="col text-center">
+            <small>© 2022, Bootstrap Coffee Roasters</small><br>
             <small>All Rights Reserved</small>
           </div>
         </div>

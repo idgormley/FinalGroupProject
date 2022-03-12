@@ -1,4 +1,0 @@
-#footlead{
-
-    pl-5
-}
